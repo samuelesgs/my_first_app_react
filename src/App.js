@@ -1,10 +1,15 @@
+import { Component, Fragment } from "react";
+import HelloWord from "./HelloWord";
 
-function App() {
-  return (
-    <div className="App">
-      Hello word!!!
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Fragment>
+        <HelloWord name="Mundo Sam"/>
+        <HelloWord name="International"/>
+      </Fragment>
+    );
+  }
 }
 
 export default App;
